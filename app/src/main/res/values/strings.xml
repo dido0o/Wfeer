@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Wfeer</string>
+    <string name="i_am">Are You :</string>
+    <string name="volunteer">Volunteer</string>
+    <string name="camp">Camp</string>
+    <string name="exit_text">Exit</string>
+    <string name="name_editText">Name</string>
+    <string name="address_editText">Address</string>
+    <string name="email_editText">Email</string>
+    <string name="mobile_number_editText">Mobile Number</string>
+    <string name="password_editText">Password</string>
+    <string name="re_enter_password_editText">Re-enter Password</string>
+    <string name="submit_button">Submit</string>
+    <string name="camp_name">Camp Name</string>
+    <string name="intro_text"> "Wfeer is a platform to connect volunteers with camps
+        supervisors who have extra not used food, so they will deliver the food to the
+        people who really need it."</string>
+    <string name="missing_info_ET">Some information is missing, please complete</string>
+    <string name="missing_food_info_ET">Some food information is missing, please complete</string>
+    <string name="food_description">We have around 300 meals contain\'s cooked rise and chicken,
+        the meals are hot and fresh now, also there is similar number of orange and
+        apple juice </string>
+    <string name="agreement1">I am </string>
+    <string name="agreement2"> and i am volunteer, and i agree to that all my information
+        are correct, and i will be responsible about the food and any related things, and i will
+        deliver the food to the right people who really need it,and i agree to that, there is no
+        legal or other responsibilities assigned to the people who created this application.</string>
+    <string name="thanks">Wfeer platform Thank\'s you for participating in saving the food and the world, A volunteer will contact you soon : )</string>
+    <string name="volunteer_gratitude">Dear **** : Wfeer platform Thank\'s you for participating in
+        saving the food and the world, Huge Thanks : )</string>
+    <string name="title_activity_test_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_camp_map">Map</string>
+
+
+</resources>

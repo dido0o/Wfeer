@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_gradient"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/linLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:text="Wfeer"
+                android:gravity="center"
+                android:textSize="45dp"
+                android:textStyle="italic"
+                android:textColor="#0E130E"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:text="Camp Information"
+                android:textSize="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#57788E"
+                />
+
+            <!-- Name Label -->
+
+            <EditText android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/camp_name"
+                android:autofillHints="" />
+
+
+            <!-- Address Label -->
+
+            <EditText android:id="@+id/input_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Camp Address"
+                android:autofillHints="" />
+
+
+
+            <!--  Email Label -->
+
+            <EditText android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email"
+                android:autofillHints="" />
+
+
+
+            <!-- mobile number -->
+
+            <EditText android:id="@+id/input_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/mobile_number_editText"
+                android:autofillHints="" />
+
+            <EditText android:id="@+id/camp_legal_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Legal ID"
+                android:autofillHints="" />
+
+            <TextView
+                android:text="Food Information"
+                android:textSize="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#57788E"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText android:id="@+id/input_food_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Food Type"
+                android:inputType="text"
+                android:autofillHints="" />
+
+            <EditText android:id="@+id/input_food_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Food Amount"
+                android:inputType="number"
+                android:autofillHints="" />
+
+            <EditText android:id="@+id/input_expire_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Expire Date"
+                android:inputType="text"
+                android:autofillHints="" />
+
+            <TextView
+                android:id="@+id/some_wrong_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:textColor="#CB0550" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/add_photo_text_view"
+                android:text="Upload food picture"
+                android:textSize="18sp"
+                android:background="@drawable/black_thin_border"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/add_long_lat_text_view"
+                android:text="Upload Camp Location"
+                android:textSize="18sp"
+                android:background="@drawable/black_thin_border"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/submit_button"
+            android:layout_weight="3"
+            />
+
+        </LinearLayout>
+</ScrollView>
+
